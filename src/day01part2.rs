@@ -50,13 +50,6 @@ pub fn run() -> i128 {
         }
     }
 
-    // for elf in elves {
-    //     if elf > 50000 {
-    //         println!("{}", elf);
-    //     }
-    // }
-    println!("{} {} {}", max, second, third);
-
     return (max + second + third) as i128;
 }
 
